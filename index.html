@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>CV - José Alejandro Quezada Afre</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV José Quezada Afre</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        header p {
+            margin: 5px 0;
+            color: #777;
+        }
+
+        section {
+            margin-top: 25px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
+
+        .info {
+            margin-top: 10px;
+        }
+
+        .info p {
+            margin: 6px 0;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .skill {
+            background: #3498db;
+            color: white;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .skill:hover {
+            background: #2980b9;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #888;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>José Alejandro Quezada Afre</h1>
-    <h2>Subitulo</h2>
+
+<div class="container">
+
+    <header>
+        <h1>José Alejandro Quezada Afre</h1>
+        <p>Desarrollador Web</p>
+    </header>
+
+    <section>
+        <h2>Información de Contacto</h2>
+        <div class="info">
+            <p><strong>Correo:</strong> 26000205@galileo.edu</p>
+            <p><strong>Teléfono:</strong> 1234-56789-90123</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>
+            Soy un desarrollador enfocado en tecnologías web, con experiencia en el desarrollo
+            de aplicaciones dinámicas utilizando diversas herramientas modernas.
+        </p>
+    </section>
+
+    <section>
+        <h2>Tecnologías</h2>
+        <div class="skills">
+            <div class="skill">PHP</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Bootstrap 5</div>
+            <div class="skill">PostgreSQL</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Java</div>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 - José Alejandro Quezada Afre
+    </footer>
+
+</div>
+
 </body>
 </html>
